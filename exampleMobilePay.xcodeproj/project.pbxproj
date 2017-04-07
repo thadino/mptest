@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30F72CC71EAEBF2400D54DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F72CC61EAEBF2400D54DEA /* AppDelegate.swift */; };
+		30F72CC91EAEBF2400D54DEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F72CC81EAEBF2400D54DEA /* ViewController.swift */; };
+		30F72CCC1EAEBF2400D54DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F72CCA1EAEBF2400D54DEA /* Main.storyboard */; };
+		30F72CCE1EAEBF2400D54DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F72CCD1EAEBF2400D54DEA /* Assets.xcassets */; };
+		30F72CD11EAEBF2400D54DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F72CCF1EAEBF2400D54DEA /* LaunchScreen.storyboard */; };
+		30F72CDC1EAEBF2400D54DEA /* exampleMobilePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F72CDB1EAEBF2400D54DEA /* exampleMobilePayTests.swift */; };
+		30F72CE71EAEBF2400D54DEA /* exampleMobilePayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F72CE61EAEBF2400D54DEA /* exampleMobilePayUITests.swift */; };
+		30F72CFE1EAEC53000D54DEA /* appshit.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F72CFD1EAEC53000D54DEA /* appshit.m */; };
+		30F72D031EAED04C00D54DEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F72D021EAED04C00D54DEA /* CoreGraphics.framework */; };
+		30F72D051EAED05400D54DEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F72D041EAED05400D54DEA /* UIKit.framework */; };
+		30F72D071EAED05C00D54DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F72D061EAED05C00D54DEA /* Foundation.framework */; };
+		30F72D1A1EAED61400D54DEA /* libMobilePayManager1.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F72D141EAED5FA00D54DEA /* libMobilePayManager1.8.0.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30F72CD81EAEBF2400D54DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F72CBB1EAEBF2400D54DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30F72CC21EAEBF2400D54DEA;
+			remoteInfo = exampleMobilePay;
+		};
+		30F72CE31EAEBF2400D54DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F72CBB1EAEBF2400D54DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30F72CC21EAEBF2400D54DEA;
+			remoteInfo = exampleMobilePay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30F72CC31EAEBF2400D54DEA /* exampleMobilePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exampleMobilePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F72CC61EAEBF2400D54DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30F72CC81EAEBF2400D54DEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30F72CCB1EAEBF2400D54DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30F72CCD1EAEBF2400D54DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30F72CD01EAEBF2400D54DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30F72CD21EAEBF2400D54DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F72CD71EAEBF2400D54DEA /* exampleMobilePayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exampleMobilePayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F72CDB1EAEBF2400D54DEA /* exampleMobilePayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleMobilePayTests.swift; sourceTree = "<group>"; };
+		30F72CDD1EAEBF2400D54DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F72CE21EAEBF2400D54DEA /* exampleMobilePayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exampleMobilePayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F72CE61EAEBF2400D54DEA /* exampleMobilePayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleMobilePayUITests.swift; sourceTree = "<group>"; };
+		30F72CE81EAEBF2400D54DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F72CF51EAEC30700D54DEA /* MobilePayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MobilePayManager.h; path = "../MobilePay-AppSwitch-SDK/sdk/iOS/1.8.0/MobilePayManager/MobilePayManager.h"; sourceTree = "<group>"; };
+		30F72CF71EAEC37700D54DEA /* libMobilePayManager1.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobilePayManager1.8.0.a; path = "../MobilePay-AppSwitch-SDK/sdk/iOS/1.8.0/MobilePayManager/libMobilePayManager1.8.0.a"; sourceTree = "<group>"; };
+		30F72CFC1EAEC53000D54DEA /* exampleMobilePay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "exampleMobilePay-Bridging-Header.h"; sourceTree = "<group>"; };
+		30F72CFD1EAEC53000D54DEA /* appshit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appshit.m; sourceTree = "<group>"; };
+		30F72CFF1EAECFF600D54DEA /* MobilePayManager */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MobilePayManager; path = "../MobilePay-AppSwitch-SDK/sdk/iOS/1.8.0/MobilePayManager"; sourceTree = "<group>"; };
+		30F72D021EAED04C00D54DEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30F72D041EAED05400D54DEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30F72D061EAED05C00D54DEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30F72D091EAED2B200D54DEA /* libMobilePayManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobilePayManager.a; path = "../MobilePay-AppSwitch-SDK/sdk/iOS/1.0.0/MobilePayManager/libMobilePayManager.a"; sourceTree = "<group>"; };
+		30F72D0C1EAED40C00D54DEA /* libMobilePayManager1.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobilePayManager1.8.0.a; path = MobilePayManager/libMobilePayManager1.8.0.a; sourceTree = "<group>"; };
+		30F72D141EAED5FA00D54DEA /* libMobilePayManager1.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobilePayManager1.8.0.a; sourceTree = "<group>"; };
+		30F72D151EAED5FA00D54DEA /* MobilePayCancelledPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobilePayCancelledPayment.h; sourceTree = "<group>"; };
+		30F72D161EAED5FA00D54DEA /* MobilePayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobilePayManager.h; sourceTree = "<group>"; };
+		30F72D171EAED5FA00D54DEA /* MobilePayPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobilePayPayment.h; sourceTree = "<group>"; };
+		30F72D181EAED5FA00D54DEA /* MobilePaySuccessfulPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobilePaySuccessfulPayment.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30F72CC01EAEBF2400D54DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F72D1A1EAED61400D54DEA /* libMobilePayManager1.8.0.a in Frameworks */,
+				30F72D031EAED04C00D54DEA /* CoreGraphics.framework in Frameworks */,
+				30F72D051EAED05400D54DEA /* UIKit.framework in Frameworks */,
+				30F72D071EAED05C00D54DEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F72CD41EAEBF2400D54DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F72CDF1EAEBF2400D54DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30F72CBA1EAEBF2400D54DEA = {
+			isa = PBXGroup;
+			children = (
+				30F72CF91EAEC3D100D54DEA /* Externals */,
+				30F72CC51EAEBF2400D54DEA /* exampleMobilePay */,
+				30F72CDA1EAEBF2400D54DEA /* exampleMobilePayTests */,
+				30F72CE51EAEBF2400D54DEA /* exampleMobilePayUITests */,
+				30F72CC41EAEBF2400D54DEA /* Products */,
+				30F72CF41EAEC30700D54DEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30F72CC41EAEBF2400D54DEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F72CC31EAEBF2400D54DEA /* exampleMobilePay.app */,
+				30F72CD71EAEBF2400D54DEA /* exampleMobilePayTests.xctest */,
+				30F72CE21EAEBF2400D54DEA /* exampleMobilePayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F72CC51EAEBF2400D54DEA /* exampleMobilePay */ = {
+			isa = PBXGroup;
+			children = (
+				30F72CC61EAEBF2400D54DEA /* AppDelegate.swift */,
+				30F72CC81EAEBF2400D54DEA /* ViewController.swift */,
+				30F72CCA1EAEBF2400D54DEA /* Main.storyboard */,
+				30F72CCD1EAEBF2400D54DEA /* Assets.xcassets */,
+				30F72CCF1EAEBF2400D54DEA /* LaunchScreen.storyboard */,
+				30F72CD21EAEBF2400D54DEA /* Info.plist */,
+				30F72CFD1EAEC53000D54DEA /* appshit.m */,
+				30F72CFC1EAEC53000D54DEA /* exampleMobilePay-Bridging-Header.h */,
+			);
+			path = exampleMobilePay;
+			sourceTree = "<group>";
+		};
+		30F72CDA1EAEBF2400D54DEA /* exampleMobilePayTests */ = {
+			isa = PBXGroup;
+			children = (
+				30F72CDB1EAEBF2400D54DEA /* exampleMobilePayTests.swift */,
+				30F72CDD1EAEBF2400D54DEA /* Info.plist */,
+			);
+			path = exampleMobilePayTests;
+			sourceTree = "<group>";
+		};
+		30F72CE51EAEBF2400D54DEA /* exampleMobilePayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30F72CE61EAEBF2400D54DEA /* exampleMobilePayUITests.swift */,
+				30F72CE81EAEBF2400D54DEA /* Info.plist */,
+			);
+			path = exampleMobilePayUITests;
+			sourceTree = "<group>";
+		};
+		30F72CF41EAEC30700D54DEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F72D0C1EAED40C00D54DEA /* libMobilePayManager1.8.0.a */,
+				30F72D091EAED2B200D54DEA /* libMobilePayManager.a */,
+				30F72D061EAED05C00D54DEA /* Foundation.framework */,
+				30F72D041EAED05400D54DEA /* UIKit.framework */,
+				30F72D021EAED04C00D54DEA /* CoreGraphics.framework */,
+				30F72CFF1EAECFF600D54DEA /* MobilePayManager */,
+				30F72CF71EAEC37700D54DEA /* libMobilePayManager1.8.0.a */,
+				30F72CF51EAEC30700D54DEA /* MobilePayManager.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F72CF91EAEC3D100D54DEA /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				30F72D141EAED5FA00D54DEA /* libMobilePayManager1.8.0.a */,
+				30F72D151EAED5FA00D54DEA /* MobilePayCancelledPayment.h */,
+				30F72D161EAED5FA00D54DEA /* MobilePayManager.h */,
+				30F72D171EAED5FA00D54DEA /* MobilePayPayment.h */,
+				30F72D181EAED5FA00D54DEA /* MobilePaySuccessfulPayment.h */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30F72CC21EAEBF2400D54DEA /* exampleMobilePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F72CEB1EAEBF2400D54DEA /* Build configuration list for PBXNativeTarget "exampleMobilePay" */;
+			buildPhases = (
+				30F72CBF1EAEBF2400D54DEA /* Sources */,
+				30F72CC01EAEBF2400D54DEA /* Frameworks */,
+				30F72CC11EAEBF2400D54DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = exampleMobilePay;
+			productName = exampleMobilePay;
+			productReference = 30F72CC31EAEBF2400D54DEA /* exampleMobilePay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30F72CD61EAEBF2400D54DEA /* exampleMobilePayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F72CEE1EAEBF2400D54DEA /* Build configuration list for PBXNativeTarget "exampleMobilePayTests" */;
+			buildPhases = (
+				30F72CD31EAEBF2400D54DEA /* Sources */,
+				30F72CD41EAEBF2400D54DEA /* Frameworks */,
+				30F72CD51EAEBF2400D54DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30F72CD91EAEBF2400D54DEA /* PBXTargetDependency */,
+			);
+			name = exampleMobilePayTests;
+			productName = exampleMobilePayTests;
+			productReference = 30F72CD71EAEBF2400D54DEA /* exampleMobilePayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30F72CE11EAEBF2400D54DEA /* exampleMobilePayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F72CF11EAEBF2400D54DEA /* Build configuration list for PBXNativeTarget "exampleMobilePayUITests" */;
+			buildPhases = (
+				30F72CDE1EAEBF2400D54DEA /* Sources */,
+				30F72CDF1EAEBF2400D54DEA /* Frameworks */,
+				30F72CE01EAEBF2400D54DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30F72CE41EAEBF2400D54DEA /* PBXTargetDependency */,
+			);
+			name = exampleMobilePayUITests;
+			productName = exampleMobilePayUITests;
+			productReference = 30F72CE21EAEBF2400D54DEA /* exampleMobilePayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30F72CBB1EAEBF2400D54DEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sr;
+				TargetAttributes = {
+					30F72CC21EAEBF2400D54DEA = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					30F72CD61EAEBF2400D54DEA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30F72CC21EAEBF2400D54DEA;
+					};
+					30F72CE11EAEBF2400D54DEA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30F72CC21EAEBF2400D54DEA;
+					};
+				};
+			};
+			buildConfigurationList = 30F72CBE1EAEBF2400D54DEA /* Build configuration list for PBXProject "exampleMobilePay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30F72CBA1EAEBF2400D54DEA;
+			productRefGroup = 30F72CC41EAEBF2400D54DEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30F72CC21EAEBF2400D54DEA /* exampleMobilePay */,
+				30F72CD61EAEBF2400D54DEA /* exampleMobilePayTests */,
+				30F72CE11EAEBF2400D54DEA /* exampleMobilePayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F72CC11EAEBF2400D54DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F72CD11EAEBF2400D54DEA /* LaunchScreen.storyboard in Resources */,
+				30F72CCE1EAEBF2400D54DEA /* Assets.xcassets in Resources */,
+				30F72CCC1EAEBF2400D54DEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F72CD51EAEBF2400D54DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F72CE01EAEBF2400D54DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30F72CBF1EAEBF2400D54DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F72CC91EAEBF2400D54DEA /* ViewController.swift in Sources */,
+				30F72CFE1EAEC53000D54DEA /* appshit.m in Sources */,
+				30F72CC71EAEBF2400D54DEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F72CD31EAEBF2400D54DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F72CDC1EAEBF2400D54DEA /* exampleMobilePayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F72CDE1EAEBF2400D54DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F72CE71EAEBF2400D54DEA /* exampleMobilePayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30F72CD91EAEBF2400D54DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30F72CC21EAEBF2400D54DEA /* exampleMobilePay */;
+			targetProxy = 30F72CD81EAEBF2400D54DEA /* PBXContainerItemProxy */;
+		};
+		30F72CE41EAEBF2400D54DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30F72CC21EAEBF2400D54DEA /* exampleMobilePay */;
+			targetProxy = 30F72CE31EAEBF2400D54DEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30F72CCA1EAEBF2400D54DEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F72CCB1EAEBF2400D54DEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30F72CCF1EAEBF2400D54DEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F72CD01EAEBF2400D54DEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30F72CE91EAEBF2400D54DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30F72CEA1EAEBF2400D54DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30F72CEC1EAEBF2400D54DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = exampleMobilePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobilePayManager",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = K.exampleMobilePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "exampleMobilePay/exampleMobilePay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		30F72CED1EAEBF2400D54DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = exampleMobilePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobilePayManager",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = K.exampleMobilePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "exampleMobilePay/exampleMobilePay-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		30F72CEF1EAEBF2400D54DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = exampleMobilePayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = K.exampleMobilePayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exampleMobilePay.app/exampleMobilePay";
+			};
+			name = Debug;
+		};
+		30F72CF01EAEBF2400D54DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = exampleMobilePayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = K.exampleMobilePayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exampleMobilePay.app/exampleMobilePay";
+			};
+			name = Release;
+		};
+		30F72CF21EAEBF2400D54DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = exampleMobilePayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = K.exampleMobilePayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = exampleMobilePay;
+			};
+			name = Debug;
+		};
+		30F72CF31EAEBF2400D54DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = exampleMobilePayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = K.exampleMobilePayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = exampleMobilePay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F72CBE1EAEBF2400D54DEA /* Build configuration list for PBXProject "exampleMobilePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F72CE91EAEBF2400D54DEA /* Debug */,
+				30F72CEA1EAEBF2400D54DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F72CEB1EAEBF2400D54DEA /* Build configuration list for PBXNativeTarget "exampleMobilePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F72CEC1EAEBF2400D54DEA /* Debug */,
+				30F72CED1EAEBF2400D54DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30F72CEE1EAEBF2400D54DEA /* Build configuration list for PBXNativeTarget "exampleMobilePayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F72CEF1EAEBF2400D54DEA /* Debug */,
+				30F72CF01EAEBF2400D54DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30F72CF11EAEBF2400D54DEA /* Build configuration list for PBXNativeTarget "exampleMobilePayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F72CF21EAEBF2400D54DEA /* Debug */,
+				30F72CF31EAEBF2400D54DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30F72CBB1EAEBF2400D54DEA /* Project object */;
+}
